@@ -1,0 +1,19 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Serve TorqueWorks Website",
+			"type": "shell",
+			"command": "npx",
+			"args": [
+				"serve",
+				".",
+				"-p",
+				"3000"
+			],
+			"group": "build",
+			"isBackground": true,
+			"problemMatcher": []
+		}
+	]
+}
